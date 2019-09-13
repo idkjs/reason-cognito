@@ -1,0 +1,26 @@
+{
+  "name": "@reason-cognito/core",
+  "version": "0.1.0",
+  "description": "Reasonable AWS Cognito Primatives",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pckilgore/reason-cognito.git"
+  },
+  "author": "Patrick C. Kilgore",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pckilgore/reason-cognito/issues"
+  },
+  "homepage": "https://github.com/pckilgore/reason-cognito#readme"
+}
