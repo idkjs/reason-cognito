@@ -1,0 +1,22 @@
+{
+  "name": "reason-cognito",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "node src/Script.bs.js"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.15",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
