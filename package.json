@@ -18,13 +18,13 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "6.2.1",
-    "serve": "^11.1.0"
+    "bs-platform": "9.0.2",
+    "serve": "^11.3.2"
   },
   "dependencies": {
-    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.0",
-    "bs-fetch": "^0.5.0",
-    "isomorphic-fetch": "^2.2.1",
-    "reason-future": "^2.5.0"
+    "@ahrefs/bs-atdgen-codec-runtime": "^2.0.1",
+    "bs-fetch": "^0.6.2",
+    "isomorphic-fetch": "^3.0.0",
+    "reason-future": "^2.6.0"
   }
 }

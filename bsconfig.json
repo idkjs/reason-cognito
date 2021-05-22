@@ -16,7 +16,6 @@
     "@ahrefs/bs-atdgen-codec-runtime"
   ],
   "warnings": {
-    "error": "+101"
-  },
-  "refmt": 3
+    "error": "+101-109"
+  } 
 }
