@@ -7,17 +7,14 @@
     "start": "yarn bsb -make-world -w",
     "test": "node src/Scratch.bs.js",
     "ci": "yarn build && yarn test",
-    "generate-types": "node bin/atdgen.js -t src/atd/CognitoJson.atd",
-    "generate-serde": "node bin/atdgen.js -bs src/atd/CognitoJson.atd",
-    "codegen": "yarn generate-types && yarn generate-serde",
-    "postinstall": "yarn codegen"
+    "atdgen": "atdgen -t src/atd/CognitoJson.atd && atdgen -bs src/atd/CognitoJson.atd",
+    "postinstall": "yarn atdgen"
   },
-  "keywords": [
-    "BuckleScript"
-  ],
+  "keywords": [ "BuckleScript" ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@jchavarri/bs-atdgen-generator": "^0.0.9",
     "bs-platform": "9.0.2",
     "serve": "^11.3.2"
   },

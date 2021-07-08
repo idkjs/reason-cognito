@@ -14,6 +14,11 @@
   resolved "https://registry.npmjs.org/@glennsl/bs-json/-/bs-json-5.0.1.tgz#b19d0b45f4a80d52e6bfefa032ac99f4548f3083"
   integrity sha512-tDxqeO4LCUz3HIwsdqyM4OIUk/bIV8QwDuhNbqy3hHIVEciePbJXTSyXMKsoIFs3ukQY8ZsQXskONtOK4TyLfA==
 
+"@jchavarri/bs-atdgen-generator@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@jchavarri/bs-atdgen-generator/-/bs-atdgen-generator-0.0.9.tgz#023065ea73e5f62894acd1c61cc4209cae96f40e"
+  integrity sha512-YtNBwB2bgQlPb6ZAVCZUBGempY36UbrgqSXE6iqkk4EghMcaq/jL5F9YGKlQFt6zDulm4qAuTQtMWAkJP6HO1w==
+
 "@zeit/schemas@2.6.0":
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/@zeit/schemas/-/schemas-2.6.0.tgz#004e8e553b4cd53d538bd38eac7bcbf58a867fe3"
