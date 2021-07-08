@@ -49,7 +49,7 @@ auth
     (),
   )
 ->Future.tapOk(_ => Js.log("Success!!!!"))
-->Future.tapError(_ => Js.log("Oh shit"));
+->Future.tapError(_ => Js.log("Oh shit"))->ignore;
 
 /*   )*/
 
